@@ -1,0 +1,2 @@
+# samplepage
+Sample blog page
