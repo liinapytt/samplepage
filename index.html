@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liina Püttsepa proovitöö</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+
+<!--Header -->
+<header class="header">
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><i class="material-icons">menu</i></label>
+  <a href="#" class="logo">Menu</a>
+  <ul class="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+  </ul>
+</header>
+
+<!-- Content container, contains blog and sidebar -->
+ <div class="container">
+ 
+<!-- Blog area -->
+  <div class="blog">
+      <div class="card">  
+        <img src="img/cover_2048.jpg" alt="Blogging desk">
+        <div class="card-content">
+        	<h1>Practical Functional Programming</h1>
+        	<h3>Published by <span class="author">Steven Heidel </span>on 29 Apr 2017</h3>
+                <p>The following is reformatted from a presentation I gave at LinkedIn last year. The presentation attempted to explain functional programming without using concepts like 'monads' or 'immutability' or 'side effects'. Instead it focuses on how thinking about composition can make you a better programmer, regardless of what language you use.</p>
+                <p class="hashtags">#hashtags #events #programming</p>
+                <hr>
+                <p class="social-media">1 like&bull;2 comments&bull;3 views</p>
+            </div>
+        </div>
+      <div class="card">  
+        <img src="img/cover_2048.jpg" alt="Blogging desk">
+        <div class="card-content">
+        	<h1>Practical Functional Programming</h1>
+        	<h3>Published by <span class="author">Steven Heidel </span>on 29 Apr 2017</h3>
+                <p>The following is reformatted from a presentation I gave at LinkedIn last year. The presentation attempted to explain functional programming without using concepts like 'monads' or 'immutability' or 'side effects'. Instead it focuses on how thinking about composition can make you a better programmer, regardless of what language you use.</p>
+                <p class="hashtags">#hashtags #events #programming</p>
+                <hr>
+                <p class="social-media">1 like&bull;2 comments&bull;3 views</p>
+            </div>
+        </div>
+      </div><!-- Blog END -->
+    
+<!-- Sidebar -->    
+ <div class="sidebar">
+  
+<!-- Events -->
+   <div class="events">
+    <h2>Events</h2>
+        <hr>
+        <div class="event_line">
+            <span class="circle"><h4>11 Dets</h4></span>
+            <ul>
+                <li>UX Tartu</li>
+                    <ul>
+                        <li>SPARK &bull;</li>
+                        <li>Tartu &bull;</li>
+                        <li class="tomorrow">Tomorrow</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="circle" id="altcolor_circle"><h4>20 Dets</h4></span>
+            <ul>
+                <li>Christmas Party</li>
+                    <ul>
+                        <li>SPARK &bull;</li>
+                        <li>Tartu &bull;</li>
+                        <li class="going">Going</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="circle"><h4>9 Dets</h4></span>
+            <ul>
+                <li>Refresh 2018</li>
+                    <ul>
+                        <li>SPARK &bull;</li>
+                        <li>Tartu</li>
+                    </ul>
+            </ul>
+        </div>
+        
+     </div><!-- Events END-->
+     
+ <!-- Birthdays  -->   
+    <div class="birthdays">
+        <h2>Birthdays</h2>
+        <hr>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/52.jpg" alt="Peter Heidel"></span>
+            <ul>
+                <li>Steven Heidel</li>
+                    <ul>
+                        <li>12 November &bull;</li>
+                        <li class="tomorrow">Tomorrow</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/87.jpg" alt="Eva Salomon"></span>
+            <ul>
+                <li>Eva Salomon</li>
+                    <ul>
+                        <li>18 November</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/32.jpg" alt="Sarah Goldstein"></span>
+            <ul>
+                <li>Sarah Goldstein</li>
+                    <ul>
+                         <li>29 November</li>
+                    </ul>
+            </ul>
+        </div>
+    </div>
+<!-- Birthdays END-->
+    
+ <!-- Newcomers -->      
+    <div class="newcomers">
+      <h2>Newcomers</h2>
+        <hr>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/52.jpg" alt="Peter Heidel"></span>
+            <ul>
+                <li>Steven Heidel</li>
+                    <ul>
+                        <li>12 November</li>
+                    </ul>
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/87.jpg" alt="Eva Salomon"></span>
+            <ul>
+                <li>Eva Salomon</li>
+                    <ul>
+                        <li>18 November</li>
+                    </ul>          
+            </ul>
+        </div>
+        <div class="event_line">
+            <span class="thumbnail"><img src="img/32.jpg" alt="Sarah Goldstein"></span>
+            <ul>
+                <li>Sarah Goldstein</li>
+                    <ul>
+                        <li>29 November</li>
+                    </ul>
+            </ul>
+        </div>
+ 	</div>
+<!-- Newcomers END-->
+ 	
+<!-- Latest comments -->      
+  <h2>Latest comments</h2>
+    <hr>
+    <h5>Practical Functional Programming</h5>
+      <div class="latest">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur ...</p>
+          <p>3 November John Doe</p>
+      </div>
+      
+    <h5>Practical Functional Programming</h5>
+       <div class="latest">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur ...</p>
+           <p>3 November John Doe</p>
+       </div>
+       
+    <h5>Practical Functional Programming</h5>
+       <div class="latest">
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur ...</p>
+           <p>3 November John Doe</p>
+       </div>
+  
+  </div> <!-- Sidebar END -->
+  
+  </div> <!-- Container END -->
+
+</body>
+</html>
